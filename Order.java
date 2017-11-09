@@ -1,16 +1,16 @@
 public class Order{
 	
-	private Arraylist<Object> contents;
+	private Arraylist<MenuItems> contents;
 
 	public Order(){
-		contents = new Arraylist<Object>();
+		contents = new Arraylist<MenuItems>();
 	}
 
-	public add(Object o){
+	public add(MenuItems o){
 		contents.add(o);
 	}
 
-	public remove(Object o){
+	public remove(MenuItems o){
 		for(int i = 0; i < contents.length; i++){
 			if(contents[i] == o)
 				contents[i] == null;

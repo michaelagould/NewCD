@@ -1,4 +1,4 @@
-public class FamilySpecial extend MenuItem{
+public class FamilySpecial extends MenuItem{
 	
 	private String largeSide1;
 	private String largeSide2;
